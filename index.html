@@ -1,26 +1,37 @@
-<html __fvdsurfcanyoninserted="1" class=" clickberry-extension clickberry-extension-standalone clickberry-extension clickberry-extension-standalone clickberry-extension clickberry-extension-standalone"><head>
+<html __fvdsurfcanyoninserted="1"
+    class=" clickberry-extension clickberry-extension-standalone clickberry-extension clickberry-extension-standalone clickberry-extension clickberry-extension-standalone">
+
+<head>
     <meta charset="UTF-8">
     <title>Happy Birthday</title>
+
     <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="style.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
     <style>
         /* If you can't see it just hit space in here*/
         body {
-            font-family:'Wendy One', sans-serif;
+            font-family: 'Wendy One', sans-serif;
         }
-        
+
         body {
-background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(0%, #374566), color-stop(100%, #010203));
-background-image: -webkit-radial-gradient(#374566, #010203);
-background-image: -moz-radial-gradient(#374566, #010203);
-background-image: -o-radial-gradient(#374566, #010203);
-background-image: radial-gradient(#374566, #010203);
-}
+            background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(0%, #374566), color-stop(100%, #010203));
+            background-image: -webkit-radial-gradient(#374566, #010203);
+            background-image: -moz-radial-gradient(#374566, #010203);
+            background-image: -o-radial-gradient(#374566, #010203);
+            background-image: radial-gradient(#374566, #010203);
+        }
+
         span {
             text-transform: uppercase;
         }
+
         .container {
             width: 800px;
             height: 420px;
@@ -28,13 +39,15 @@ background-image: radial-gradient(#374566, #010203);
             margin: 0 auto;
             position: relative;
         }
+
         .balloon {
             width: 738px;
             margin: 0 auto;
             padding-top: 30px;
             position: relative;
         }
-        .balloon > div {
+
+        .balloon>div {
             width: 104px;
             height: 140px;
             background: rgba(182, 15, 97, 0.9);
@@ -46,7 +59,8 @@ background-image: radial-gradient(#374566, #010203);
             box-shadow: inset 17px 7px 10px rgba(182, 15, 97, 0.9);
             -webkit-transform-origin: bottom center;
         }
-        .balloon > div:nth-child(1) {
+
+        .balloon>div:nth-child(1) {
             background: rgba(182, 15, 97, 0.9);
             left: 0;
             box-shadow: inset 10px 10px 10px rgba(135, 11, 72, 0.9);
@@ -55,10 +69,12 @@ background-image: radial-gradient(#374566, #010203);
             -o-animation: balloon1 6s ease-in-out infinite;
             animation: balloon1 6s ease-in-out infinite;
         }
-        .balloon > div:nth-child(1):before {
+
+        .balloon>div:nth-child(1):before {
             color: rgba(182, 15, 97, 0.9);
         }
-        .balloon > div:nth-child(2) {
+
+        .balloon>div:nth-child(2) {
             background: rgba(242, 112, 45, 0.9);
             left: 120px;
             box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);
@@ -67,10 +83,12 @@ background-image: radial-gradient(#374566, #010203);
             -o-animation: balloon2 6s ease-in-out infinite;
             animation: balloon2 6s ease-in-out infinite;
         }
-        .balloon > div:nth-child(2):before {
+
+        .balloon>div:nth-child(2):before {
             color: rgba(242, 112, 45, 0.9);
         }
-        .balloon > div:nth-child(3) {
+
+        .balloon>div:nth-child(3) {
             background: rgba(45, 181, 167, 0.9);
             left: 240px;
             box-shadow: inset 10px 10px 10px rgba(35, 140, 129, 0.9);
@@ -79,10 +97,12 @@ background-image: radial-gradient(#374566, #010203);
             -o-animation: balloon4 6s ease-in-out infinite;
             animation: balloon4 6s ease-in-out infinite;
         }
-        .balloon > div:nth-child(3):before {
+
+        .balloon>div:nth-child(3):before {
             color: rgba(45, 181, 167, 0.9);
         }
-        .balloon > div:nth-child(4) {
+
+        .balloon>div:nth-child(4) {
             background: rgba(190, 61, 244, 0.9);
             left: 360px;
             box-shadow: inset 10px 10px 10px rgba(173, 14, 240, 0.9);
@@ -91,10 +111,12 @@ background-image: radial-gradient(#374566, #010203);
             -o-animation: balloon1 5s ease-in-out infinite;
             animation: balloon1 5s ease-in-out infinite;
         }
-        .balloon > div:nth-child(4):before {
+
+        .balloon>div:nth-child(4):before {
             color: rgba(190, 61, 244, 0.9);
         }
-        .balloon > div:nth-child(5) {
+
+        .balloon>div:nth-child(5) {
             background: rgba(180, 224, 67, 0.9);
             left: 480px;
             box-shadow: inset 10px 10px 10px rgba(158, 206, 34, 0.9);
@@ -103,10 +125,12 @@ background-image: radial-gradient(#374566, #010203);
             -o-animation: balloon3 5s ease-in-out infinite;
             animation: balloon3 5s ease-in-out infinite;
         }
-        .balloon > div:nth-child(5):before {
+
+        .balloon>div:nth-child(5):before {
             color: rgba(180, 224, 67, 0.9);
         }
-        .balloon > div:nth-child(6) {
+
+        .balloon>div:nth-child(6) {
             background: rgba(242, 194, 58, 0.9);
             left: 600px;
             box-shadow: inset 10px 10px 10px rgba(234, 177, 15, 0.9);
@@ -115,17 +139,20 @@ background-image: radial-gradient(#374566, #010203);
             -o-animation: balloon2 3s ease-in-out infinite;
             animation: balloon2 3s ease-in-out infinite;
         }
-        .balloon > div:nth-child(6):before {
+
+        .balloon>div:nth-child(6):before {
             color: rgba(242, 194, 58, 0.9);
         }
-        .balloon > div:before {
+
+        .balloon>div:before {
             color: rgba(182, 15, 97, 0.9);
             position: absolute;
             bottom: -11px;
             left: 52px;
-            content:"▲";
+            content: "▲";
             font-size: 1em;
         }
+
         span {
             font-size: 4.8em;
             color: white;
@@ -134,138 +161,203 @@ background-image: radial-gradient(#374566, #010203);
             left: 50%;
             margin-left: -27px;
         }
+
         /*BALLOON 1 4*/
         @-webkit-keyframes balloon1 {
-            0%, 100% {
+
+            0%,
+            100% {
                 -webkit-transform: translateY(0) rotate(-6deg);
             }
+
             50% {
                 -webkit-transform: translateY(-20px) rotate(8deg);
             }
         }
+
         @-moz-keyframes balloon1 {
-            0%, 100% {
+
+            0%,
+            100% {
                 -moz-transform: translateY(0) rotate(-6deg);
             }
+
             50% {
                 -moz-transform: translateY(-20px) rotate(8deg);
             }
         }
+
         @-o-keyframes balloon1 {
-            0%, 100% {
+
+            0%,
+            100% {
                 -o-transform: translateY(0) rotate(-6deg);
             }
+
             50% {
                 -o-transform: translateY(-20px) rotate(8deg);
             }
         }
+
         @keyframes balloon1 {
-            0%, 100% {
+
+            0%,
+            100% {
                 transform: translateY(0) rotate(-6deg);
             }
+
             50% {
                 transform: translateY(-20px) rotate(8deg);
             }
         }
+
         /* BAllOON 2 5*/
         @-webkit-keyframes balloon2 {
-            0%, 100% {
+
+            0%,
+            100% {
                 -webkit-transform: translateY(0) rotate(6eg);
             }
+
             50% {
                 -webkit-transform: translateY(-30px) rotate(-8deg);
             }
         }
+
         @-moz-keyframes balloon2 {
-            0%, 100% {
+
+            0%,
+            100% {
                 -moz-transform: translateY(0) rotate(6deg);
             }
+
             50% {
                 -moz-transform: translateY(-30px) rotate(-8deg);
             }
         }
+
         @-o-keyframes balloon2 {
-            0%, 100% {
+
+            0%,
+            100% {
                 -o-transform: translateY(0) rotate(6deg);
             }
+
             50% {
                 -o-transform: translateY(-30px) rotate(-8deg);
             }
         }
+
         @keyframes balloon2 {
-            0%, 100% {
+
+            0%,
+            100% {
                 transform: translateY(0) rotate(6deg);
             }
+
             50% {
                 transform: translateY(-30px) rotate(-8deg);
             }
         }
+
         /* BAllOON 0*/
         @-webkit-keyframes balloon3 {
-            0%, 100% {
+
+            0%,
+            100% {
                 -webkit-transform: translate(0, -10px) rotate(6eg);
             }
+
             50% {
                 -webkit-transform: translate(-20px, 30px) rotate(-8deg);
             }
         }
+
         @-moz-keyframes balloon3 {
-            0%, 100% {
+
+            0%,
+            100% {
                 -moz-transform: translate(0, -10px) rotate(6eg);
             }
+
             50% {
                 -moz-transform: translate(-20px, 30px) rotate(-8deg);
             }
         }
+
         @-o-keyframes balloon3 {
-            0%, 100% {
+
+            0%,
+            100% {
                 -o-transform: translate(0, -10px) rotate(6eg);
             }
+
             50% {
                 -o-transform: translate(-20px, 30px) rotate(-8deg);
             }
         }
+
         @keyframes balloon3 {
-            0%, 100% {
+
+            0%,
+            100% {
                 transform: translate(0, -10px) rotate(6eg);
             }
+
             50% {
                 transform: translate(-20px, 30px) rotate(-8deg);
             }
         }
+
         /* BAllOON 3*/
         @-webkit-keyframes balloon4 {
-            0%, 100% {
+
+            0%,
+            100% {
                 -webkit-transform: translate(10px, -10px) rotate(-8eg);
             }
+
             50% {
                 -webkit-transform: translate(-15px, 20px) rotate(10deg);
             }
         }
+
         @-moz-keyframes balloon4 {
-            0%, 100% {
+
+            0%,
+            100% {
                 -moz-transform: translate(10px, -10px) rotate(-8eg);
             }
+
             50% {
                 -moz-transform: translate(-15px, 10px) rotate(10deg);
             }
         }
+
         @-o-keyframes balloon4 {
-            0%, 100% {
+
+            0%,
+            100% {
                 -o-transform: translate(10px, -10px) rotate(-8eg);
             }
+
             50% {
                 -o-transform: translate(-15px, 10px) rotate(10deg);
             }
         }
+
         @keyframes balloon4 {
-            0%, 100% {
+
+            0%,
+            100% {
                 transform: translate(10px, -10px) rotate(-8eg);
             }
+
             50% {
                 transform: translate(-15px, 10px) rotate(10deg);
             }
         }
+
         h1 {
             position: relative;
             top: 200px;
@@ -275,11 +367,11 @@ background-image: radial-gradient(#374566, #010203);
         }
     </style>
     <script>
-        window.open = function() {};
-        window.print = function() {};
+        window.open = function () { };
+        window.print = function () { };
         // Support hover state for mobile.
         if (false) {
-            window.ontouchstart = function() {};
+            window.ontouchstart = function () { };
         }
     </script>
     <script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script>
@@ -287,7 +379,11 @@ background-image: radial-gradient(#374566, #010203);
     <meta content="clickberry-extension-here">
     <style type="text/css"></style>
     <style type="text/css"></style>
-<style type="text/css"></style><style type="text/css"></style><script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script><meta content="clickberry-extension-here"></head>
+    <style type="text/css"></style>
+    <style type="text/css"></style>
+    <script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script>
+    <meta content="clickberry-extension-here">
+</head>
 
 <body>
     <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet" type="text/css">
@@ -306,17 +402,102 @@ background-image: radial-gradient(#374566, #010203);
             <div><span>!</span>
             </div>
         </div>
-         <h1>Bambooi Girl <br/> Ananya</h1>
+        <h1>Bambooi Girl </h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top: 27%;">
+            <!-- Indicators -->
+            <!-- <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol> -->
 
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <video class="video" width="100%" height="100%" controls="controls">
+                        <source src="public/aadhi.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item">
+                    <video class="video" width="100%" height="100%" controls="controls">
+                        <source src="public/anamika_jr.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item">
+                    <video class="video" width="100%" height="100%" controls="controls">
+                        <source src="public/jdbro.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item">
+                    <video class="video" width="100%" height="100%" controls="controls">
+                        <source src="public/neehuyaar.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item">
+                    <video class="video" width="100%" height="100%" controls="controls">
+                        <source src="public/nikhilbro.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item">
+                    <video class="video" width="100%" height="100%" controls="controls">
+                        <source src="public/pratheesh.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item">
+                    <video class="video" width="100%" height="100%" controls="controls">
+                        <source src="public/rubenbro.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item">
+                    <video class="video" width="100%" height="100%" controls="controls">
+                        <source src="public/senior.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item">
+                    <video class="video" width="100%" height="100%" controls="controls">
+                        <source src="public/sonal.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item">
+                    <video class="video" width="100%" height="100%" controls="controls">
+                        <source src="public/souwmya.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item">
+                    <video class="video" width="100%" height="100%" controls="controls">
+                        <source src="public/vaishuuu.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a onclick="return stopit()" class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a onclick="return stopit()" class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        
+    </div>
+    <div style="float: right;margin-top: 20%;">
+        powered by 
+        <a type="_blank" href="https://github.com/deepdil-sp">
+            <i class="fa fa-github" style="font-size:24px"></i>
+        </a>
     </div>
     <script>
-        
     </script>
     <script>
         if (document.location.search.match(/type=embed/gi)) {
             window.parent.postMessage('resize', "*");
         }
+        function stopit() {
+            $("video").trigger("pause")
+            return true
+        }
     </script>
-<a type="_blank" href="https://github.com/deepdil-sp"> <i class="fa fa-github" style="font-size:24px"></i> </a>
-
-</body></html>
+</body>
+</html>
